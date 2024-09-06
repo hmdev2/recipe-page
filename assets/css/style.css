@@ -1,0 +1,103 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Outfit", sans-serif;
+}
+
+:root {
+    --stone100: hsl(30, 54%, 90%);
+
+    --stone600: hsl(30, 10%, 34%);
+
+    --brown800: hsl(14, 45%, 36%);
+
+    --rose800: hsl(332, 51%, 32%);
+
+    --rose50: hsl(330, 100%, 98%);
+}
+
+.bg-rose50 {
+	background-color: var(--rose50);
+}
+
+.text-rose800 {
+	color: var(--rose800);
+}
+
+.text-stone600 {
+	color: var(--stone600);
+}
+
+.text-brown800 {
+	color: var(--brown800);
+}
+
+tr.noline {
+	border-bottom: white;
+}
+
+html, body {
+	height: 100%;
+}
+
+body {
+	max-width: 1440px;
+	width: 100%;
+	background-color: var(--stone100);
+}
+
+main {
+	height: 100vh;
+	width: 100%;
+}
+
+h1, h2 {
+	font-family: "Young Serif", sans-serif;
+}
+
+h2 {
+	color: var(--brown800);
+}
+
+p {
+	font-size: 16px;
+}
+
+td b {
+	margin-left: 80px;
+}
+
+li {
+	text-indent: 20px;
+}
+
+.list li::marker {
+	color: var(--rose800);
+}
+
+ol ::marker {
+	font-weight: 700;
+}
+
+::marker {
+	color: var(--brown800);
+}
+
+@media (max-width: 375px) {
+
+	#container.m-5 {
+		margin: 0em !important;
+	}
+
+	img {
+		width: 160%;
+		margin-left: -100px;
+		margin-top: -50px;
+	}
+
+	.img-fluid {
+		max-width: 153%;
+	}
+}
+
+
