@@ -68,7 +68,7 @@ td b {
 }
 
 li {
-	text-indent: 20px;
+	padding-left:1.2rem;
 }
 
 .list li::marker {
